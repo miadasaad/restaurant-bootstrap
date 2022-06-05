@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background: url(imgs/background.JPG) no-repeat fixed;
+  background: url(../imgs/background.JPG) no-repeat fixed;
   background-size: cover;
   width: 100%;
   color: gray;
@@ -181,7 +181,7 @@ section {
 }
 
 .about .image {
-  background: url(imgs/about.JPG);
+  background: url(../imgs/about.JPG);
   width: 50%;
   background-size: cover;
 }
@@ -254,7 +254,7 @@ section {
 }
 
 .counter {
-  background: url(imgs/counter.JPG);
+  background: url(../imgs/counter.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% -85px;
@@ -364,7 +364,7 @@ section {
 
 .customer {
   padding-top: 80px !important;
-  background: url(imgs/slider1.PNG);
+  background: url(../imgs/slider1.PNG);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -465,7 +465,7 @@ section {
   margin-bottom: 17px;
 }
 
-@media (min-width: 400px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .location iframe {
     width: 100%;
   }
