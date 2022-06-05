@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: url(imgs/background.JPG) no-repeat fixed;
+  background: url(../imgs/background.JPG) no-repeat fixed;
   background-size: cover;
   width: 100%;
   color: gray;
@@ -177,7 +177,7 @@ padding: 80px 0;
 // about
 .about {
   .image {
-    background: url(imgs/about.JPG);
+    background: url(../imgs/about.JPG);
     width: 50%;
 
     background-size: cover;
@@ -263,7 +263,7 @@ padding: 80px 0;
 
 // counter
 .counter {
-  background: url(imgs/counter.JPG);
+  background: url(../imgs/counter.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% -85px;
@@ -380,7 +380,7 @@ padding: 80px 0;
 //customer
 .customer {
   padding-top: 80px !important;
-  background: url(imgs/slider1.PNG);
+  background: url(../imgs/slider1.PNG);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -492,7 +492,7 @@ padding: 80px 0;
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 400px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
 .location {
   iframe{
     width: 100%;
